@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1830DDFB2633138700019C69 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830DDFA2633138700019C69 /* Constants.swift */; };
+		1830DDFE2633145F00019C69 /* AFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830DDFD2633145F00019C69 /* AFManager.swift */; };
+		1830DE0126331A6A00019C69 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830DE0026331A6A00019C69 /* News.swift */; };
+		1830DE072634225000019C69 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830DE062634225000019C69 /* NewsTableViewCell.swift */; };
 		1846CFF426330E5000867F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846CFF326330E5000867F94 /* AppDelegate.swift */; };
 		1846CFF626330E5000867F94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846CFF526330E5000867F94 /* SceneDelegate.swift */; };
-		1846CFF826330E5000867F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846CFF726330E5000867F94 /* ViewController.swift */; };
+		1846CFF826330E5000867F94 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846CFF726330E5000867F94 /* NewsListViewController.swift */; };
 		1846CFFB26330E5000867F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1846CFF926330E5000867F94 /* Main.storyboard */; };
 		1846CFFD26330E5000867F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1846CFFC26330E5000867F94 /* Assets.xcassets */; };
 		1846D00026330E5000867F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1846CFFE26330E5000867F94 /* LaunchScreen.storyboard */; };
+		1853DC6426343AAF00D37764 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853DC6326343AAF00D37764 /* NewsDetailViewController.swift */; };
+		1853DC6D2634460900D37764 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853DC6C2634460900D37764 /* Category.swift */; };
+		1853DCBC2634658500D37764 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853DCBB2634658500D37764 /* Utility.swift */; };
+		1FC826CD9BFCDFA709939BAA /* Pods_KotuKo_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3730E701B249E6860CA88D57 /* Pods_KotuKo_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07D36D372F3C509D7D4EB7C0 /* Pods-KotuKo_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotuKo_Demo.release.xcconfig"; path = "Target Support Files/Pods-KotuKo_Demo/Pods-KotuKo_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		1830DDFA2633138700019C69 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1830DDFD2633145F00019C69 /* AFManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFManager.swift; sourceTree = "<group>"; };
+		1830DE0026331A6A00019C69 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		1830DE062634225000019C69 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		1846CFF026330E5000867F94 /* KotuKo_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotuKo_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1846CFF326330E5000867F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1846CFF526330E5000867F94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1846CFF726330E5000867F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1846CFF726330E5000867F94 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		1846CFFA26330E5000867F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1846CFFC26330E5000867F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1846CFFF26330E5000867F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1846D00126330E5000867F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1853DC6326343AAF00D37764 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		1853DC6C2634460900D37764 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1853DCBB2634658500D37764 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		3730E701B249E6860CA88D57 /* Pods_KotuKo_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotuKo_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55AD167EB4AA34D502899BD /* Pods-KotuKo_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotuKo_Demo.debug.xcconfig"; path = "Target Support Files/Pods-KotuKo_Demo/Pods-KotuKo_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,114 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC826CD9BFCDFA709939BAA /* Pods_KotuKo_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1830DDF42633131300019C69 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1846CFF326330E5000867F94 /* AppDelegate.swift */,
+				1846CFF526330E5000867F94 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1830DDF52633133E00019C69 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1830DDFA2633138700019C69 /* Constants.swift */,
+				1853DCBB2634658500D37764 /* Utility.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1830DDF62633134800019C69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1830DE0026331A6A00019C69 /* News.swift */,
+				1853DC6C2634460900D37764 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1830DDF72633135100019C69 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1830DDFD2633145F00019C69 /* AFManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1830DDF82633135B00019C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1830DE0B263426E100019C69 /* Storyboard */,
+				1830DE052634223500019C69 /* CustomCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1830DDF92633136400019C69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1830DE0E263429BE00019C69 /* News */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1830DE052634223500019C69 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				1830DE09263426C000019C69 /* News */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		1830DE09263426C000019C69 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				1830DE062634225000019C69 /* NewsTableViewCell.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		1830DE0B263426E100019C69 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1830DE0C263426EA00019C69 /* Shared */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1830DE0C263426EA00019C69 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1846CFF926330E5000867F94 /* Main.storyboard */,
+				1846CFFE26330E5000867F94 /* LaunchScreen.storyboard */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1830DE0E263429BE00019C69 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				1846CFF726330E5000867F94 /* NewsListViewController.swift */,
+				1853DC6326343AAF00D37764 /* NewsDetailViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
 		1846CFE726330E4F00867F94 = {
 			isa = PBXGroup;
 			children = (
 				1846CFF226330E5000867F94 /* KotuKo_Demo */,
 				1846CFF126330E5000867F94 /* Products */,
+				63EE65A039BCE32D13C455BD /* Pods */,
+				654A8B450C949886B675B29D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +171,33 @@
 		1846CFF226330E5000867F94 /* KotuKo_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				1846CFF326330E5000867F94 /* AppDelegate.swift */,
-				1846CFF526330E5000867F94 /* SceneDelegate.swift */,
-				1846CFF726330E5000867F94 /* ViewController.swift */,
-				1846CFF926330E5000867F94 /* Main.storyboard */,
+				1830DDF42633131300019C69 /* Application */,
+				1830DDF52633133E00019C69 /* Shared */,
+				1830DDF72633135100019C69 /* Networking */,
+				1830DDF62633134800019C69 /* Model */,
+				1830DDF82633135B00019C69 /* View */,
+				1830DDF92633136400019C69 /* Controller */,
 				1846CFFC26330E5000867F94 /* Assets.xcassets */,
-				1846CFFE26330E5000867F94 /* LaunchScreen.storyboard */,
 				1846D00126330E5000867F94 /* Info.plist */,
 			);
 			path = KotuKo_Demo;
+			sourceTree = "<group>";
+		};
+		63EE65A039BCE32D13C455BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F55AD167EB4AA34D502899BD /* Pods-KotuKo_Demo.debug.xcconfig */,
+				07D36D372F3C509D7D4EB7C0 /* Pods-KotuKo_Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		654A8B450C949886B675B29D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3730E701B249E6860CA88D57 /* Pods_KotuKo_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1846D00426330E5000867F94 /* Build configuration list for PBXNativeTarget "KotuKo_Demo" */;
 			buildPhases = (
+				276E8C3CD9B901C146F97847 /* [CP] Check Pods Manifest.lock */,
 				1846CFEC26330E4F00867F94 /* Sources */,
 				1846CFED26330E4F00867F94 /* Frameworks */,
 				1846CFEE26330E4F00867F94 /* Resources */,
+				C55D239C32AD696B831C1D1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +267,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		276E8C3CD9B901C146F97847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KotuKo_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C55D239C32AD696B831C1D1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotuKo_Demo/Pods-KotuKo_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KotuKo_Demo/Pods-KotuKo_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KotuKo_Demo/Pods-KotuKo_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1846CFEC26330E4F00867F94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1846CFF826330E5000867F94 /* ViewController.swift in Sources */,
+				1830DE0126331A6A00019C69 /* News.swift in Sources */,
+				1853DC6D2634460900D37764 /* Category.swift in Sources */,
+				1830DE072634225000019C69 /* NewsTableViewCell.swift in Sources */,
+				1853DCBC2634658500D37764 /* Utility.swift in Sources */,
+				1846CFF826330E5000867F94 /* NewsListViewController.swift in Sources */,
 				1846CFF426330E5000867F94 /* AppDelegate.swift in Sources */,
 				1846CFF626330E5000867F94 /* SceneDelegate.swift in Sources */,
+				1853DC6426343AAF00D37764 /* NewsDetailViewController.swift in Sources */,
+				1830DDFE2633145F00019C69 /* AFManager.swift in Sources */,
+				1830DDFB2633138700019C69 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +467,7 @@
 		};
 		1846D00526330E5000867F94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55AD167EB4AA34D502899BD /* Pods-KotuKo_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +486,7 @@
 		};
 		1846D00626330E5000867F94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D36D372F3C509D7D4EB7C0 /* Pods-KotuKo_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
